@@ -6,86 +6,77 @@ width: 100%;
 height: 100%;
 /* display: inline-block */
 }
-.head-div{
-	display: inline;
-	margin: 50px;
+#main-block{
+	width: 99%; 
+	height: 100px; 
+	background-color: lavender;
+	border: 2px solid black;
+	padding: 2px;
+	margin-right: 10px;
+	display: block;
 }
-
-#form-div{
-	float: right;
-	/* vertical-align: middle; */
-}
-.hyperlink-sec{
-	display: inline;
-}
-.hyperlink-sec ul li{
+.sub-block{
 	display: inline; 
-	list-style: none;
-	margin: 10px;
+	float: left; 
 }
-navbar{
+#form-block{
+	float: right;
+	margin-top: 27px; 
+	margin-right: 20px; 
+
+
+}
+#form-block form input{
+	font-size: 15px;
+	
+	background-color: white; 
+	padding: 13px; 
+	border: 0px solid green; 
+	border-radius: 15px; 
+	box-shadow: 3px 3px 6px red ;
+
+
+
+}
+.nav-section{
+	width: 99%; 
+	height: 50px;
+	background-color: aliceblue; 
+	border: 2px solid black; 
+	margin-top: 10px;
+	margin-right: 10px;
 	text-align: center;
 }
-
-#left-sidebar-menu ul li{
-	list-style: none;
-	margin-top: 20px;
-}
-#right-sidebar ul li {
-	list-style: none;
-	margin-top: 20px;
-}
-#right-sidebar{
-	float:right;
-}
-.block{
+.nav-section ul li{
+	list-style: none; 
+	text-decoration: none;
 	display: inline;
-	float: left;
-	height: 800px;
+	padding: 20px;
+	
 }
-#right-bar{
-	width: 10%;
+.aside-section{
+	width: 99%; 
+	height: 260px; 
+	margin-top: 5px;
+	margin-right: 10px;
+	/* border: 2px solid black;  */
+	background-color: azure;
+	display: block; 
+	
 }
-#left-bar{
-	width: 10%;
+#left-sidebar{
+	width: 150px;
+	border: 2px solid black;
+	margin: 5px;
+	display: inline-block;
 }
-#middle-bar{
-	width: 80%;
+.aside-section ul li{
+	list-style: none; 
+	padding: 2px;
 }
-.row{
-	width: 100%; 
-	height: 50vh; 
-	display: block;
-	margin-top: 20px;
-	align-items: center; 
-	justify-self: center; 
-	margin-left: 20px;
-
+.post-img{
+	height: 100%; 
+	width: 500px; 
+	border: 2px solid black; 
+	display: inline-block;
 }
-/* .col{
-	width: 33%; 
-	height:100%;
-	display: inline; 
-	float: left;
-} */
-.post-img img{
-	min-width: 100%;
-	min-height: 100%;
-	border: 2px; 
-	border-radius: 20px; 
-
-}
-.post-img {
-	display: inline; 
-	float: left;
-	width: 30%; 
-	height: 100%;
-	/* float: left; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-	margin: 15px;
-
-}
-
