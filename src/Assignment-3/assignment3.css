@@ -1,7 +1,44 @@
 /* Our CSS file. */
 
+#container,
+.content {
+  width: 100%;
+  height: 100%;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+.row {
+  height: 33vh;
+  display: block;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+.col {
+  width: 50%;
+  height: 100%;
+  display: inline;
+  float: left;
+  text-align: center;
+}
+#render-wiki {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+#render-dictionary{
+  width: 100%; 
+  height: 100%; 
+  border: 2px solid black;
+
+}
+button{
+  font-size: 20px; 
+  background-color: bisque; 
+  border: 2px solid green; 
+  border-radius: 15px; 
+  padding: 5px 10px; 
+
+
+}
+h1{
+  margin-top: 20px;
 }

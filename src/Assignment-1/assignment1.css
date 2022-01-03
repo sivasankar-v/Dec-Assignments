@@ -6,6 +6,9 @@ width: 100%;
 height: 100%;
 margin: 0%;
 }
+header{
+	border: 20x solid black;
+}
 .row{
 	display: block;
 	width: 100%; 
