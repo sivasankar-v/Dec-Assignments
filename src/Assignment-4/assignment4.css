@@ -37,7 +37,7 @@ header a{
 }
 #hero{
     /* height: 220px;  */
-    background-image: url(/Dec-Assignments/src/Assignment-4/img/park.jpg);
+    background-image: url(/Dec-Assignments/img/park.jpg);
 
     background-size: cover;
     padding: 50px 0;
