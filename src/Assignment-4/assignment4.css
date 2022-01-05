@@ -16,6 +16,7 @@ header{
     color: white;
     margin: 0px;
     
+    
 }
 header div, nav{
     display: inline;
@@ -23,6 +24,10 @@ header div, nav{
 }
 header nav{
     float: right;
+}
+header a{
+    text-decoration: none; 
+    color: white;
 }
 #navbar-menu ul li{
     list-style: none; 
